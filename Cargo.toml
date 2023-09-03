@@ -1,0 +1,10 @@
+[workspace]
+members = ["stroeme", "stroeme-lib"]
+resolver = "2"
+
+[profile.release]
+lto = "fat"
+
+[profile.dev]
+lto = "thin"
+opt-level = 2

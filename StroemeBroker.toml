@@ -1,0 +1,16 @@
+port = 443
+address = "0.0.0.0"
+ed25519_signing_key = "~/.config/stroeme/broker/stroeme_ed25519_signing.pem"
+ed25519_verifying_key = "~/.config/stroeme/broker/stroeme_ed25519_verifying.pem"
+rsa_signing_key = "~/.config/stroeme/broker/stroeme_rsa_signing.pem"
+rsa_verifying_key = "~/.config/stroeme/broker/stroeme_rsa_verifying.pem"
+distributed_directory = "~/.config/stroeme/broker/distributed"
+# the following algorithm combinations are supported:
+# Ed25519phBlake2b512
+# Ed25519phSha3512
+# Ed25519phSha2512
+# RsaBlake3
+# RsaBlake2b512
+# RsaSha3512
+# RsaSha2512
+preferred_algorithm = "Ed25519phBlake2b512"

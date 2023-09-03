@@ -1,0 +1,7 @@
+port = 443
+address = "0.0.0.0"
+broker_url = ""
+url = ""
+distributed_directory = "~/.config/stroeme/distributor/distributed/"
+well_known_directory = "~/.config/stroeme/distributor/.well-known/"
+protocol_version = 1
